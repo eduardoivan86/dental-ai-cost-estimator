@@ -14,6 +14,7 @@ def estimate_cost(call_minutes, twilio_rate=0.015, ai_rate=0.13):
     }
 
 st.title("Dental AI Voice Usage Cost Estimator")
+st.markdown("<small>Created by Eduardo C.</small>", unsafe_allow_html=True)
 
 st.write("Use the slider or input box to select your expected monthly call minutes.")
 
